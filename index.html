@@ -5,9 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS gyak</title>
     <link rel = "stylesheet" href="style.css">
+    
 </head>
 <body>
     <h1>JS try fail</h1>
     <p> Ez a JS script</p>
+    <hr/>
+    <div class = "menuStilus" id="menuID">
+        <a href = "http:// www.metropolitan.hu" target = "blank" >metu</a>
+        <a href = "https://css-tricks.com/" target = "blank" >css</a>
+        <a href = "https://www.booking.com/" target = "blank" >booking</a>
+        <a href = "https://mome.hu/" target = "blank"  >mome</a>
+
+    </div>
+    <hr />
+    <div id="gombok">
+        <button id= "HelloGomb"> Hello</button>
+    </div>
+    <script>
+        //console.log('Hello');
+        //alert('Jajj');
+        //confirm('Jóváhagy');
+        var helloGombFuggveny = function(){
+            //console.log('ok');
+            alert('nope');
+        }
+
+        var gombForras = document.getElementById("HelloGomb");
+        gombForras.onclick = helloGombFuggveny;
+        
+    </script>
 </body>
 </html>

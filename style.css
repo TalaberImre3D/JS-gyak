@@ -1,0 +1,35 @@
+.menuStilus{
+    background-color: aqua;
+    width: 50vw;
+    height: 25vh;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-content: center;
+    animation-name: cssAnimacio;
+    animation-duration: 10s;
+}
+@keyframes cssAnimacio{
+    from{
+        background-color: aqua;
+        border: 1px solid gray;
+    }
+    to {
+        background-color: brown;
+        border: 2px solid black;
+    }
+}
+.menuStilus a {
+border: 1px dashed black;
+width: 30%;
+border-radius: 10px;
+font-size: 2em;
+text-align: center;
+}
+.menuStilus a:hover {
+    background-color: blueviolet;
+}
